@@ -1,0 +1,286 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: #FFFFFF;
+    color:#FFFFFF
+}
+
+header{
+    background: #FFFFFF;
+}
+
+li{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button{
+    font-family: inherit;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2196f3;
+    color: #FFFFFF;
+}
+
+.colortext-head {
+    color: rgb(0, 0, 0)
+} 
+
+.colortext-foot {
+    color: rgb(255, 255, 255)
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+
+.nav-list{
+    font-weight: 500;
+    font-size: 14 px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+}   
+
+.nav-list .link {
+    color: rgb(0, 0, 0);
+}
+
+.contacts{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14; /*или лучше 1.2?*/
+    letter-spacing: 0.02em;
+}
+
+.contacts .link{
+
+    color: rgb(0, 0, 0);
+}
+
+.link:hover {
+    color: #2196f3;
+}
+
+.contact-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-link:hover{
+    color: #2196f3
+}
+
+.main-header{
+    background: #2F303A;
+}
+.header-tittle{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+         
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header-button{
+   
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #2196F3;
+    border: none;
+}
+
+/*
+.features{
+
+{
+
+*/
+
+
+.features-tittle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.attention
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.punctuality{
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.planning{
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.technology{
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.workinfo-tittle {
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.staff-tittle{
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.staff-pic{
+
+    border-radius: 0px;
+}
+
+.staff-username{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.staff-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer-section{
+    background-color: #2F303A;
+}
+
+.adress-section{
+
+    font-style: normal
+}
+
+.adress{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+/* or 171% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.mail{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.phone{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*---portfolio styles --------*/
+
+.web-btn{
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.prg-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.project-desc{
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
