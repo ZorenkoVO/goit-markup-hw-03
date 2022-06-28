@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\IINO KNUBA\\Documents\\GitHub\\goit-markup-hw-02\\index.html"
+            "file": "C:\\Users\\Валдис\\Documents\\GitHub\\goit-markup-hw-03\\index.html"
         },
         {
             "type": "pwa-msedge",
