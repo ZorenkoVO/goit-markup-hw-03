@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -5,8 +11,10 @@ body{
     color:#FFFFFF
 }
 
-header{
-    background: #FFFFFF;
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 li{
@@ -33,6 +41,18 @@ button:hover{
 
 .colortext-foot {
     color: rgb(255, 255, 255)
+}
+
+.page-header{
+    background-color: #ffffff;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding: 15;
+    outline: 2px solid tomato;
 }
 
 .logo{
@@ -90,26 +110,30 @@ button:hover{
     color: #2196f3
 }
 
-.main-header{
-    background: #2F303A;
+.hero{
+    background-color: #2F303A;
+   
 }
-.header-tittle{
-
-    font-family: 'Roboto';
-    font-style: normal;
+.hero-tittle{
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-         
+    line-height:1.4;
     text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    background-color: tomato;
 }
 
 .header-button{
-   
-    font-family: 'Roboto';
+margin-left: 700;
+
+    display: inline-block;
+    border-radius: 4px;
+    
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
@@ -219,16 +243,13 @@ button:hover{
     background-color: #2F303A;
 }
 
-.adress-section{
-
-    font-style: normal
-}
-
 .adress{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    
 /* or 171% */
+    font-style: normal;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -237,6 +258,7 @@ button:hover{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    font-style: normal;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -245,11 +267,38 @@ button:hover{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    font-style: normal;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
 /*---portfolio styles --------*/
+
+.projects{
+
+}
+
+.tech-box{
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.no-box{
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
+    
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
 
 .web-btn{
     background: #F5F4FA;

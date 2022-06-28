@@ -10,33 +10,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-    <header>
-        <nav class="nav-header">
+    <header class="page-header">
+        <nav class="container" >
             <a class="logo" href="index.html">Web<span class="colortext-head">Studio</span></a>
             <ul class="nav-list">
                 <li><a href="index.html"class="link">Студия</a></li>
                 <li><a href="portfolio.html"class="link">Портфолио</a></li>
                 <li><a href=" "class="link">Контакты</a></li>
             </ul>
-        </nav>
+        
         <ul class="contacts">
             <li><a href=" "class="contact-link">info@devstudio.com</a></li>
             <li><a href=" "class="contact-link">+38 096 111 11 11</a></li>
         </ul>
+        </nav>
     </header>
-
     <main>
-        <section class="main-header">
-            <h1 class="header-tittle">Эффективные решения для вашего бизнеса</h1>
-            
+        <section class="hero">
+            <h1 
+                class="hero-tittle">Эффективные решения для вашего бизнеса
+            </h1>
             <button class="header-button" type="button">Заказать услугу</button> 
-
         </section>
-
-        <section class="features">
+        <section class="container">
             <ul class="features-list">
                 <li class="features-item">
                     <h3 class="features-tittle">Внимание к деталям</h3>
@@ -56,8 +56,9 @@
                 </li>
             </ul>
         </section>
+        
 
-        <section class="workinfo">
+        <section class="container">
             <h2 class="workinfo-tittle">Чем мы занимаемся</h2>
         <ul class="workinfo-list">
             <li>
@@ -72,7 +73,7 @@
         </ul>
         </section>
         <!-- Staff section -->
-        <section class="staff">
+        <section class="container">
             <h2 class="staff-tittle" >Наша команда</h2>
             <ul class="staff-list">
                 <li class="staff-item">
@@ -99,12 +100,14 @@
         </section>
     </main>
         <!-- footer section -->
-    <footer class="footer-section">
-        <a class="logo" href=" ">Web<span class="colortext-foot">Studio</span></a>
-        <address class="adress-section">
+    <footer>
+        <address class="footer-section">
+            <div class="container">
+            <a class="logo" href=" ">Web<span class="colortext-foot">Studio</span></a>
             <p class="adress">г. Киев, пр-т Леси Укранки, 26</p>
             <a class="mail" href=" ">info@example.com</a><br>
             <a class="phone" href=" ">+38 099 111 11 11</a>
+            </div>
         </address>
     </footer>
 </body>

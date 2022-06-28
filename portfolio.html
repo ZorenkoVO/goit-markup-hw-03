@@ -7,25 +7,25 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.goopagleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
 </head>
-<header>
-    <nav class="nav-header">
+<header class="page-header">
+    <nav class="container" >
         <a class="logo" href="index.html">Web<span class="colortext-head">Studio</span></a>
         <ul class="nav-list">
             <li><a href="index.html" class="link">Студия</a></li>
             <li><a href="portfolio.html" class="link">Портфолио</a></li>
             <li><a href=" " class="link">Контакты</a></li>
         </ul>
-    </nav>
     <ul class="contacts">
         <li><a href=" " class="contact-link">info@devstudio.com</a></li>
         <li><a href=" " class="contact-link">+38 096 111 11 11</a></li>
+        </nav>
     </ul>
 </header>
-    <main>
+    <main class="container">
         <!--Main section-->
        <section class="projects-nav">
             <ul class="button-nav">
@@ -50,13 +50,13 @@
        <!--Project sections-->
        <section class="projects">
         <ul>
-            <li>
+            <li class="tech-box">
                 <a href=""></a>
                 <img class="prg-img" src="images/img_techkryak.jpg" alt="Технокряк" width="370" height="294"/>
-                    <p class="prg-text">Технокряк</p>
-                    <p class="project-desc">Веб-сайт</p>
+                <p class="prg-text">Технокряк</p>
+                <p class="project-desc">Веб-сайт</p>
             </li>
-            <li>
+            <li class="no-box">
                 <img src="images/img_no vs gs.jpg" alt="Постер" width="370"/>
                 <p class="prg-text">Постер New Orlean vs Golden Star</p>
                 <p class="project-desc">Дизайн</p>
@@ -101,12 +101,14 @@
        </section>
        <section></section> 
     </main>
-    <footer class="footer-section">
-        <a class="logo" href=" ">Web<span class="colortext-foot">Studio</span></a>
-        <address class="adress-section">
-            <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
-            <a class="mail" href=" ">info@example.com</a><br>
-            <a class="phone" href=" ">+38 099 111 11 11</a>
+    <footer>
+        <address class="footer-section">
+            <div class="container">
+                <a class="logo" href=" ">Web<span class="colortext-foot">Studio</span></a>
+                <p class="adress">г. Киев, пр-т Леси Укранки, 26</p>
+                <a class="mail" href=" ">info@example.com</a><br>
+                <a class="phone" href=" ">+38 099 111 11 11</a>
+            </div>
         </address>
     </footer>
     </body>
