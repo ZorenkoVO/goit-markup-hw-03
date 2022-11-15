@@ -10,33 +10,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-    <header class="page-header">
-        <nav class="container" >
-            <a class="logo" href="index.html">Web<span class="colortext-head">Studio</span></a>
+    <header>
+        <nav class="nav-header">
+            <ul>
+                <li><a class="logo" href="index.html">Web<span class="colortext-head">Studio</span></a></li>
+            </ul>
             <ul class="nav-list">
                 <li><a href="index.html"class="link">Студия</a></li>
                 <li><a href="portfolio.html"class="link">Портфолио</a></li>
                 <li><a href=" "class="link">Контакты</a></li>
             </ul>
-        
-        <ul class="contacts">
-            <li><a href=" "class="contact-link">info@devstudio.com</a></li>
-            <li><a href=" "class="contact-link">+38 096 111 11 11</a></li>
-        </ul>
         </nav>
+        <ul class="contacts">
+            <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+            <li><a href="tel:+38 096 111 11 11" class="contact-link">+38 096 111 11 11</a></li>
+        </ul>
     </header>
+
     <main>
-        <section class="hero">
-            <h1 
-                class="hero-tittle">Эффективные решения для вашего бизнеса
-            </h1>
+        <section class="main-header">
+            <h1 class="header-tittle">Эффективные решения для вашего бизнеса</h1>
+            
             <button class="header-button" type="button">Заказать услугу</button> 
+
         </section>
-        <section class="container">
+
+        <section class="features">
+            <h2 class="features-main">Особенности</h2>
             <ul class="features-list">
                 <li class="features-item">
                     <h3 class="features-tittle">Внимание к деталям</h3>
@@ -56,9 +59,8 @@
                 </li>
             </ul>
         </section>
-        
 
-        <section class="container">
+        <section class="workinfo">
             <h2 class="workinfo-tittle">Чем мы занимаемся</h2>
         <ul class="workinfo-list">
             <li>
@@ -73,41 +75,43 @@
         </ul>
         </section>
         <!-- Staff section -->
-        <section class="container">
+        <section class="staff">
             <h2 class="staff-tittle" >Наша команда</h2>
             <ul class="staff-list">
                 <li class="staff-item">
                     <img class="staff-pic" src="images/img_teammate1.jpg" alt="сотрудник" width="270"/>
-                        <p class="staff-username">Игорь Демьяненко</p> 
+                        <h3 class="staff-username">Игорь Демьяненко</h3> 
                         <p class="staff-desc">Product Designer</p>
                 </li>
                 <li class="staff-item">
                     <img class="staff-pic" src="images/img_teammate2.jpg" alt="сотрудник" width="270"/>
-                    <p class="staff-username">Ольга Репина</p>
+                    <h3 class="staff-username">Ольга Репина</h3>
                     <p class="staff-desc">Frontend Developer</p>
                 </li>
                 <li class="staff-item">
                     <img class="staff-pic" src="images/img_teammate3.jpg" alt="сотрудник" width="270"/>
-                    <p class="staff-username">Николай Тарасов</p>
+                    <h3 class="staff-username">Николай Тарасов</h3>
                     <p class="staff-desc">Marketing</p>
                 </li>
                 <li class="staff-item">
                     <img class="staff-pic" src="images/img_teammate4.jpg" alt="сотрудник" width="270"/>
-                    <p class="staff-username">Михаил Ермаков</p>
+                    <h3 class="staff-username">Михаил Ермаков</h3>
                     <p class="staff-desc">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
         <!-- footer section -->
-    <footer>
-        <address class="footer-section">
-            <div class="container">
-            <a class="logo" href=" ">Web<span class="colortext-foot">Studio</span></a>
-            <p class="adress">г. Киев, пр-т Леси Укранки, 26</p>
-            <a class="mail" href=" ">info@example.com</a><br>
-            <a class="phone" href=" ">+38 099 111 11 11</a>
-            </div>
+    <footer class="footer-section">
+        <ul>
+            <li><a class="logo" href=" ">Web<span class="colortext-foot">Studio</span></a></li>
+        </ul>
+        <address class="adress-section">
+        <ul class="contacts">
+            <li><a href="https://goo.gl/maps/aJPGZDhUiX63Y8ww9" target="_blank" class="adress">г. Киев, пр-т Леси Укранки, 26</a></li>
+            <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+            <li><a href="tel:+38 096 111 11 11" class="contact-link">+38 096 111 11 11</a></li>
+        </ul>
         </address>
     </footer>
 </body>
