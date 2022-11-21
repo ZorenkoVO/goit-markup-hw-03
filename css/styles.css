@@ -26,7 +26,16 @@ button:hover{
     background-color: #2196f3;
     color: #FFFFFF;
 }
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .colortext-head {
     color: rgb(0, 0, 0)
 } 
@@ -105,6 +114,7 @@ button:hover{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+
 }
 
 .header-button{
@@ -127,7 +137,22 @@ button:hover{
 {
 
 */
+.features-list{
+    outline: 1px solid tomato;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 
+    display: flex;
+    
+}
+
+.features-list > .features-item{
+    outline: 1px solid tomato;
+    justify-content: center;
+
+      
+}
 
 .features-tittle{
     font-weight: 700;
@@ -136,6 +161,8 @@ button:hover{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    
+    
 }
 
 .attention
@@ -175,7 +202,35 @@ button:hover{
 }
 
 .workinfo-tittle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.workinfo-list{
+
+    outline: 1px solid tomato;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
     
+}
+.workinfo-list > .workinfo-item{
+
+    outline: 1px solid teal;
+    margin: 0 30px;
+}
+
+.workinfo-pic{
+
+}
+
+.staff-tittle{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -184,14 +239,21 @@ button:hover{
     color: #212121;
 }
 
-.staff-tittle{
+.staff-list{
+
+    outline: 1px solid tomato;
+    padding: 0;
+    margin: 0;
+    list-style: none;
     
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.staff-list > .staff-item{
+    outline: 1px solid teal;
 }
 
 .staff-pic{
