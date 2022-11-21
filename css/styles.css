@@ -21,7 +21,10 @@ button{
     font-family: inherit;
     cursor: pointer;
 }
-
+.container{
+    width: 1200px;
+    
+}
 :root{
         --brand-primary: #FFFFFF;
         --brand-secondary: #2196f3;
@@ -167,7 +170,13 @@ button{
     letter-spacing: 0.03em;
     color: #757575;
 }
-
+.features{
+    display: flex;
+}
+.features-box{
+    width: 270px;
+    height: 98px;
+}
 .features-main{
     font-size: 36px;
     line-height: 1.2;
@@ -216,11 +225,12 @@ button{
 
 .footer-section{
     background-color: #2F303A;
+    
 }
 
 .adress-section{
 
-    font-style: normal
+    font-style: normal;
 }
 
 .adress{
