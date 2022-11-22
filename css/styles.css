@@ -186,9 +186,7 @@ section{
 .features-list{
     display: flex;
 }
-.features-box{
-    display: flex;
-}
+
 .features-main{
     font-size: 36px;
     line-height: 1.2;
